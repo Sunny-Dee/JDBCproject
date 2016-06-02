@@ -50,7 +50,7 @@ public class CreateQuery {
                 restaurants.get(0));
     }
     
-    
+    //get the relevant info for the restaurant chosen from the db
     public ResultSet queryDb(){
         ResultSet report = null;
         try {
@@ -73,7 +73,7 @@ public class CreateQuery {
         return report;
     }
     
-    
+    //Return the user food safety information as well as the restaurant's yelp rating.
     public void createReport(){
         String message = "";
         ResultSet report = queryDb();

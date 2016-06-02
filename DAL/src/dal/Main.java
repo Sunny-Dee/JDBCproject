@@ -1,7 +1,6 @@
 package dal;
 
-import java.sql.Connection;
-
+/* Run this class to test the whole app */
 public class Main {
     public Main() {
         super();
@@ -14,7 +13,6 @@ public class Main {
         
         ask.createReport();
 
-        //DbConnection c = new DbConnection();
         
     }
 }

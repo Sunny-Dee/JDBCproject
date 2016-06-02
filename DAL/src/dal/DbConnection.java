@@ -2,6 +2,7 @@ package dal;
 
 import java.sql.*;
 
+/* Creates a connection to the DB */
 public class DbConnection {
     Connection connection;
 
